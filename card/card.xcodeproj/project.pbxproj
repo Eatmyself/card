@@ -13,6 +13,15 @@
 		B732999E256BAF9F00F7F343 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B732999D256BAF9F00F7F343 /* Preview Assets.xcassets */; };
 		B73299A9256BAF9F00F7F343 /* cardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299A8256BAF9F00F7F343 /* cardTests.swift */; };
 		B73299B4256BAFA000F7F343 /* cardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299B3256BAFA000F7F343 /* cardUITests.swift */; };
+		B73299C5256BB08100F7F343 /* snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299C4256BB08100F7F343 /* snake.swift */; };
+		B73299CA256BF09500F7F343 /* snakerow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299C9256BF09500F7F343 /* snakerow.swift */; };
+		B73299CF256C021600F7F343 /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299CE256C021600F7F343 /* list.swift */; };
+		B73299D9256C0B1000F7F343 /* snakeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299D8256C0B1000F7F343 /* snakeEditor.swift */; };
+		B73299E1256C243900F7F343 /* snakedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299E0256C243900F7F343 /* snakedata.swift */; };
+		B73299F2256D0EFD00F7F343 /* snakebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299F1256D0EFD00F7F343 /* snakebar.swift */; };
+		B73299F7256D1D2D00F7F343 /* barlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299F6256D1D2D00F7F343 /* barlist.swift */; };
+		B73299FC256D35D300F7F343 /* tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73299FB256D35D300F7F343 /* tab.swift */; };
+		B7329A04256D494C00F7F343 /* snakeinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7329A03256D494C00F7F343 /* snakeinfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,15 @@
 		B73299AF256BAFA000F7F343 /* cardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73299B3256BAFA000F7F343 /* cardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardUITests.swift; sourceTree = "<group>"; };
 		B73299B5256BAFA000F7F343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B73299C4256BB08100F7F343 /* snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snake.swift; sourceTree = "<group>"; };
+		B73299C9256BF09500F7F343 /* snakerow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakerow.swift; sourceTree = "<group>"; };
+		B73299CE256C021600F7F343 /* list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list.swift; sourceTree = "<group>"; };
+		B73299D8256C0B1000F7F343 /* snakeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = snakeEditor.swift; path = ../snakeEditor.swift; sourceTree = "<group>"; };
+		B73299E0256C243900F7F343 /* snakedata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = snakedata.swift; path = ../snakedata.swift; sourceTree = "<group>"; };
+		B73299F1256D0EFD00F7F343 /* snakebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakebar.swift; sourceTree = "<group>"; };
+		B73299F6256D1D2D00F7F343 /* barlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barlist.swift; sourceTree = "<group>"; };
+		B73299FB256D35D300F7F343 /* tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab.swift; sourceTree = "<group>"; };
+		B7329A03256D494C00F7F343 /* snakeinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakeinfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,17 @@
 		B7329995256BAF9A00F7F343 /* card */ = {
 			isa = PBXGroup;
 			children = (
+				B73299D8256C0B1000F7F343 /* snakeEditor.swift */,
+				B73299E0256C243900F7F343 /* snakedata.swift */,
 				B7329996256BAF9A00F7F343 /* cardApp.swift */,
+				B73299FB256D35D300F7F343 /* tab.swift */,
 				B7329998256BAF9A00F7F343 /* ContentView.swift */,
+				B73299C4256BB08100F7F343 /* snake.swift */,
+				B73299C9256BF09500F7F343 /* snakerow.swift */,
+				B73299F1256D0EFD00F7F343 /* snakebar.swift */,
+				B73299F6256D1D2D00F7F343 /* barlist.swift */,
+				B7329A03256D494C00F7F343 /* snakeinfo.swift */,
+				B73299CE256C021600F7F343 /* list.swift */,
 				B732999A256BAF9F00F7F343 /* Assets.xcassets */,
 				B732999F256BAF9F00F7F343 /* Info.plist */,
 				B732999C256BAF9F00F7F343 /* Preview Content */,
@@ -259,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73299F2256D0EFD00F7F343 /* snakebar.swift in Sources */,
+				B73299CF256C021600F7F343 /* list.swift in Sources */,
+				B73299C5256BB08100F7F343 /* snake.swift in Sources */,
 				B7329999256BAF9A00F7F343 /* ContentView.swift in Sources */,
 				B7329997256BAF9A00F7F343 /* cardApp.swift in Sources */,
+				B73299FC256D35D300F7F343 /* tab.swift in Sources */,
+				B73299D9256C0B1000F7F343 /* snakeEditor.swift in Sources */,
+				B73299F7256D1D2D00F7F343 /* barlist.swift in Sources */,
+				B73299CA256BF09500F7F343 /* snakerow.swift in Sources */,
+				B73299E1256C243900F7F343 /* snakedata.swift in Sources */,
+				B7329A04256D494C00F7F343 /* snakeinfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
